@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F4C81" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Background with Safe Margin Squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Inner Ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="4" />
+  
+  <!-- Healthcare Cross with Rounded Corners -->
+  <g filter="url(#shadow)" fill="#FFFFFF">
+    <rect x="220" y="116" width="72" height="280" rx="36" />
+    <rect x="116" y="220" width="280" height="72" rx="36" />
+  </g>
+  
+  <!-- Center Heart Accent -->
+  <circle cx="256" cy="256" r="28" fill="#0284C7" />
+  <path d="M256 264 C256 264 246 257 246 251 C246 247.5 248.5 245 252 245 C254.2 245 255.4 246.2 256 247 C256.6 246.2 257.8 245 260 245 C263.5 245 266 247.5 266 251 C266 257 256 264 256 264 Z" fill="#FFFFFF" />
+</svg>

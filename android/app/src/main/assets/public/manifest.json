@@ -1,0 +1,60 @@
+{
+  "id": "/",
+  "name": "PharmaCare — Smart Medicine Companion",
+  "short_name": "PharmaCare",
+  "description": "Smart medicine companion, dose alarms, prescription vault, doctor directory, AI health assistant, and family caregiver link.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5FAFF",
+  "theme_color": "#0F4C81",
+  "lang": "en",
+  "categories": ["medical", "health", "lifestyle"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Medicines",
+      "short_name": "Medicines",
+      "description": "View scheduled medicine doses",
+      "url": "/?screen=reminders",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Family Hub",
+      "short_name": "Family Hub",
+      "description": "Monitor family medicine adherence",
+      "url": "/?screen=caregiver_hub",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

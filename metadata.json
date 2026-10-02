@@ -1,0 +1,5 @@
+{
+  "name": "PharmaCare",
+  "description": "Smart medicine companion, dose alarms, prescription vault, doctor directory, and family caregiver link.",
+  "requestFramePermissions": ["camera", "geolocation"]
+}
